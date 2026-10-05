@@ -13,105 +13,64 @@
     <header>
         <h1>Moto Gp</p>
         <p> No brasil</p>
-        <style>
-        /* Estilos gerais do corpo da página */
-        body {
-            font-family: Arial, sans-serif; /* Define uma fonte mais moderna */
-            margin: 0;
-            background-color: #f4f4f9; /* Fundo levemente acinzentado */
-        }
-
-        /* Estilo do cabeçalho principal */
-        header {
-            background-color: #183C63; /* Azul escuro */
-            color: #FFFFFF; /* Texto branco */
-            text-align: center; /* Centraliza o texto */
-            max-width: 1200px;
-            margin: 0 auto; /* Centraliza o cabeçalho na tela */
-            padding: 40px;
-            border-radius: 0 0 10px 10px; /* Borda suavemente arredondada embaixo */
-        }
-
-        /* Área do conteúdo principal */
-        main {
-            background-color: #FFFFFF;
-            color: #183C63;
-            display: flex; /* Alinha a imagem e o texto lado a lado */
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            gap: 20px; /* Espaço entre a imagem e o conteúdo */
-            border-radius: 8px; /* Arredonda os cantos do bloco */
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra leve para dar profundidade */
-        }
-
-        img {
-            width: 220px;
-            height: 220px;
-            object-fit: cover; /* Evita que a imagem distorça caso mude de tamanho */
-            border-radius: 8px;
-        }
-
-        /* Destaque para o nome do autor */
-        .artigo-autor {
-            font-weight: bold;
-            color: #555;
-        }
-    </style>
+       
     </header>
 
     <main>
-        <img src="eR4Ay.jpg"
-            alt="Imagem sobre o moto gp.">
-        <div>
-            <h2>Meu primeiro postsobre moto Gp</h2>
-            <p class="artigo-autor">Por: Heros</p>
-            <p>A qui vou falar sobre o moto gp em 2027!!!.</p>
-            <button>❤️<span>0</span></button>
-            <button>👍 <span>0</span></button>
-        </div>
+        <article>    
+            <img src="eR4Ay.jpg"
+                alt="Imagem sobre o moto gp.">
+            <div>
+                <h2>Meu primeiro postsobre moto Gp</h2>
+                <p class="artigo-autor">Por: Heros</p>
+                <p>A qui vou falar sobre o moto gp em 2027!!!.</p>
+                <button>❤️<span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
+        
+        <article>      
+            <div>
+                <h2>Motores</h2>
+                <p class="artigo-autor">Por: Heros</p>
+                <p>Redução de 1000cc para 850cc (diâmetro máximo dos cilindros cai de 81 mm para 75 mm).</p>
+                <button>❤️<span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
 
-         <div>
-            <h2>Motores</h2>
-            <p class="artigo-autor">Por: Heros</p>
-            <p>Redução de 1000cc para 850cc (diâmetro máximo dos cilindros cai de 81 mm para 75 mm).</p>
-            <button>❤️<span>0</span></button>
-            <button>👍 <span>0</span></button>
-        </div>
+        <article>
+            <div>
+                <h2>Aerodinâmica </h2>
+                <p class="artigo-autor">Por: Heros</p>
+                <p>Redução da largura máxima da carenagem dianteira de 600 mm para 550 mm e recuo do bico. Limitações mais rígidas em asas traseiras.</p>
+                <button>❤️<span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
 
-         <div>
-            <h2>Aerodinâmica </h2>
-            <p class="artigo-autor">Por: Heros</p>
-            <p>Redução da largura máxima da carenagem dianteira de 600 mm para 550 mm e recuo do bico. Limitações mais rígidas em asas traseiras.</p>
-            <button>❤️<span>0</span></button>
-            <button>👍 <span>0</span></button>
-        </div>
-
-         <div>
-            <h2>Dispositivos de Altura</h2>
-            <p class="artigo-autor">Por: Heros</p>
-            <p>Proibição total de dispositivos ride-height (altura de rodagem) e holeshot (rebaixamento para largadas).</p>.</p>
-            <button>❤️<span>0</span></button>
-            <button>👍 <span>0</span></button>
-        </div>
-
-         <div>
-            <h2>Combustível</h2>
-            <p class="artigo-autor">Por: Heros</p>
-            <p>100% sustentável (origem não fóssil). Capacidade do tanque reduzida de 22 para 20 litros.</p>
-            <button>❤️<span>0</span></button>
-            <button>👍 <span>0</span></button>
-        </div>
+        <article>
+             <div>
+                <h2>Dispositivos de Altura</h2>
+                <p class="artigo-autor">Por: Heros</p>
+                <p>Proibição total de dispositivos ride-height (altura de rodagem) e holeshot (rebaixamento para largadas).</p>.</p>
+                <button>❤️<span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
+        
+        <article>       
+            <div>
+                <h2>Combustível</h2>
+                <p class="artigo-autor">Por: Heros</p>
+                <p>100% sustentável (origem não fóssil). Capacidade do tanque reduzida de 22 para 20 litros.</p>
+                <button>❤️<span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
     </main>
 
 </body>
-<script>
-        function botaoClicado() {
-            console.log("fui clicado");
-            let texto = botao.querySelector("span");
-            texto.textContent++;
-        }
-    });
-</script>
+
 
 </html>
